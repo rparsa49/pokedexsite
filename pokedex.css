@@ -1,0 +1,241 @@
+body {
+    background: url("hoenn\ bg.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'Pokemon GB';
+}
+@font-face {
+    font-family: 'Pokemon GB';
+    src: url(pokemongameboy.ttf);
+}
+
+#content-box{ 
+    width: 500px;
+    height: 900px;
+    border: 10px solid white;
+    border-radius: 10px;
+
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    background: url("pokedex-bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+#pokemon-info {
+    width: 250px;
+    height: 500px;
+    text-align: center;
+}
+
+#pokemon-list {
+    width: 250px;
+    height: 900px;
+    font-size: 12.5px;
+    overflow-y: scroll;
+   /* cursor: grab;
+    overflow: auto; */
+}
+
+.pokemon-name {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 2px 5px -4px;
+    user-select: none;
+}
+
+.pokemon-name:hover{
+    opacity: 0.6;
+}
+
+#pokemon-list::-webkit-scrollbar{
+    display: none;
+}
+
+#pokemon-info img{
+    width: 160px;
+    height: 160px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 190px;
+    background-color: white;
+    user-select: none;
+    box-shadow: 3px 2px 5px -2px;
+}
+
+#pokemon-types {
+    margin-top: 20px;
+    user-select: none;
+}
+
+.type-box {
+    padding: 3px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.normal {
+    background-color: #FEF0C9;
+    color: black;
+    border: 2px solid #FEF0C9;
+    box-shadow: 3px 2px 5px -8px;
+}
+
+.fire {
+    background-color: orange;
+    border: 2px solid orange;
+    box-shadow: 3px 2px 5px -8px;
+    color: white;
+}
+
+.grass {
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+    box-shadow: 3px 2px 5px -8px;
+}
+
+.water {
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid blue;
+
+}
+
+.ice {
+    background-color: lightblue;
+    color: black;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid lightblue;
+
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid gold;
+
+}
+
+.fighting {
+    background-color: darkred;
+    color: white;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid darkred;
+
+}
+
+.flying {
+    background-color: skyblue;
+    color: black;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid skyblue;
+
+}
+
+.bug {
+    background-color: yellowgreen;
+    color: white;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid yellowgreen;
+
+}
+
+.ghost {
+    background-color: purple;
+    color: white;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid purple;
+
+}
+
+.rock {
+    background: sienna;
+    color: white;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid sienna;
+
+}
+
+.ground {
+    background-color: burlywood;
+    color: black;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid burlywood;
+
+}
+
+.steel {
+    background-color: silver;
+    color: black;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid silver;
+
+}
+
+.dark {
+    background-color: darkgray;
+    color: white;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid darkgrey;
+
+}
+
+.psychic {
+    background-color: palevioletred;
+    color: white;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid palevioletred;
+
+}
+
+.fairy {
+    background-color: pink;
+    color: black;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid pink;
+
+}
+
+.dragon {
+    background-color: teal;
+    color: white;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid teal;
+
+}
+
+.poison {
+    background-color: darkviolet;
+    color: white;
+    box-shadow: 3px 2px 5px -8px;
+    border: 2px solid darkviolet;
+
+}
+
+#pokemon-description {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 2 px;
+    font-size: 18px;
+    overflow-y: auto;
+    box-shadow: 3px 2px 5px -3px;
+
+    user-select: none;
+}
+
+#pokemon-description::-webkit-scrollbar{
+    display: none;
+}
